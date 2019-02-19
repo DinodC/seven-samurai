@@ -1,0 +1,65 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+}
+
+body {
+  color: Grey;
+  background-color: White;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li a:visited{
+  color: LightGrey;
+}
+
+nav {
+  color: White;
+  background-color: RoyalBlue;
+  font-size: 15px;
+  padding: 10px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header {
+  color: RoyalBlue;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+footer {
+  color: White;
+  background-color: Black;
+  font-size: 12.5px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
